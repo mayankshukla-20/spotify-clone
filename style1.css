@@ -51,11 +51,13 @@
     width: 29.645px;
     height: 32.116px;
 }
-.home>p{
+.home>a{
     margin-left: 50.47px;
-    margin-top: 14.82px;
+    margin-top: 5.82px;
     margin-right: 397.64px;
     align-items: center;
+    text-decoration: none;
+    color: white;
 }
 .left-top>.home:hover{
     border: 1px solid white;
@@ -172,14 +174,6 @@
     justify-content: space-between;
     align-items: center;
 }
-.create-playlist>img{
-    width: 37.056602478027344px;
-    height: 37.056602478027344px;
-    top: 372.80126953125px;
-    margin-left: 10.05657958984375px;
-    border-radius: 1px;
-    background-color: #FFFFFF;
-}
 .create-playlist>p{
     width: 148.22640991210938px;
     height: 30.880502700805664px;
@@ -195,11 +189,13 @@
     color: #FFFFFF;
 }
 
-.liked-songs>.image>img{ 
+.liked-songs>.image{ 
     width: 37.056602478027344px;
     height: 37.056602478027344px;
     top: 372.80126953125px;
     margin-left: 10.05657958984375px;
+    padding-left: 12px;
+    padding-top: 7px;
     flex-shrink: 0;
     border-radius: 1px;
     background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
@@ -219,6 +215,15 @@
     margin-top: 14.82px;
     margin-right: 140px;
 }
+.create-playlist>img{
+    width: 37.056602478027344px;
+    height: 37.056602478027344px;
+    top: 372.80126953125px;
+    margin-left: 10.05657958984375px;
+    border-radius: 1px;
+    background-color: #FFFFFF;
+}
+
 .your-episodes>img{
     width: 37.056602478027344px;
     height: 37.056602478027344px;
@@ -279,7 +284,7 @@ margin-left: 15px;
     display: flex;
     flex-direction: column;
     width: 1457.1px;
-    height: 1115.885px;
+    height: 1025.885px;
 }
 .header{
     display: flex;
