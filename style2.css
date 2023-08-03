@@ -453,6 +453,10 @@ background:black;
     align-items: center;
     justify-content: space-between;
     width: 8vw;
+    margin-right: 15px;
+}
+.row1-col4>p{
+    margin-top: 12px;
 }
 .tr-row-1>td{
     color: #FFF;

@@ -498,7 +498,7 @@ border: none;
     flex-direction: row;
     align-items: baseline;
     justify-content: right;
-    width: #383838;
+    width: 100vw;
     padding-right: 81px;
 height: 30px;
 flex-shrink: 0;
